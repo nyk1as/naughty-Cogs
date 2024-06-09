@@ -133,13 +133,15 @@ class ZCG(commands.Cog):
         Randomly renames the current voice channel.
 
         **Examples:**
-        - `[p]channel rename`
+        - `[p]vc rename`
         """
 
         if ctx.channel.type != discord.ChannelType.voice:
-            await ctx.send("This is not a voice channel.", ephemeral=True)
+            await ctx.send(
+                "Run this command in your current voice channel.", ephemeral=True
+            )
             return
         else:
             vc_name = random.choice(self.vc_names)
             await ctx.channel.edit(name=vc_name, reason="Channel renamed.")
-            await ctx.send(f"Successfully renamed the channel", ephemeral=True)
+            await ctx.send(f"Rename successful.", ephemeral=True)
