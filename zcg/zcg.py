@@ -136,7 +136,7 @@ class ZCG(commands.Cog):
         - `[p]channel rename`
         """
 
-        if channel.type != discord.ChannelType.voice:
+        if ctx.author.channel.type != discord.ChannelType.voice:
             await ctx.send("This is not a voice channel.", ephemeral=True)
             return
         else:
