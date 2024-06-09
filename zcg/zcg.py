@@ -118,3 +118,30 @@ class ZCG(commands.Cog):
                         bitrate=get_bitrate(guild),
                         reason="Channel was empty",
                     )
+
+    @commands.guild_only()
+    @commands.hybrid_group(aliases=["channel"])
+    async def channel(self, ctx: commands.Context):
+        """Manage the ZCG channels"""
+
+    @channel.command()
+    @commands.has_permissions(manage_channels=True)
+    async def rename(
+        self, ctx: commands.Context, channel: discord.VoiceChannel
+    ) -> None:
+        """
+        Rename a voice channel
+
+        Randomly renames the current voice channel.
+
+        **Examples:**
+        - `[p]channel rename`
+        """
+
+        if channel.type != discord.ChannelType.voice:
+            await ctx.send("This is not a voice channel.", ephemeral=True)
+            return
+        else:
+            vc_name = random.choice(self.vc_names)
+            await channel.edit(name=vc_name, reason="Channel renamed.")
+            await ctx.send(f"Successfully renamed the channel", ephemeral=True)
