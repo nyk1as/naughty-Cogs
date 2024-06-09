@@ -141,5 +141,5 @@ class ZCG(commands.Cog):
             return
         else:
             vc_name = random.choice(self.vc_names)
-            await channel.edit(name=vc_name, reason="Channel renamed.")
+            await ctx.channel.edit(name=vc_name, reason="Channel renamed.")
             await ctx.send(f"Successfully renamed the channel", ephemeral=True)
