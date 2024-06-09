@@ -126,7 +126,7 @@ class ZCG(commands.Cog):
 
     @voice.command()
     @commands.has_permissions(manage_channels=True)
-    async def rename(self, ctx: commands.Context) -> None:
+    async def rename(self, ctx: commands.Context):
         """
         Rename a voice channel
 
@@ -136,7 +136,7 @@ class ZCG(commands.Cog):
         - `[p]channel rename`
         """
 
-        if ctx.author.channel.type != discord.ChannelType.voice:
+        if ctx.channel.type != discord.ChannelType.voice:
             await ctx.send("This is not a voice channel.", ephemeral=True)
             return
         else:
