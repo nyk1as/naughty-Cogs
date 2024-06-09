@@ -121,7 +121,7 @@ class ZCG(commands.Cog):
 
     @commands.guild_only()
     @commands.hybrid_group(aliases=["voice"])
-    async def channel(self, ctx: commands.Context):
+    async def voice(self, ctx: commands.Context):
         """Manage the ZCG channels"""
 
     @voice.command()
