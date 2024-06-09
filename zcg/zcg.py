@@ -36,7 +36,6 @@ class ZCG(commands.Cog):
         self.bot = bot
         self.vc_names = [
             "Bastis Zeugenstand",
-            "Caros Goldfischglas",
             "Christians Parthenon",
             "Felix Backstabroom",
             "Grevens Tanzschule",
@@ -47,7 +46,7 @@ class ZCG(commands.Cog):
             "Lukas Bolzplatz",
             "Manus Stilleecke",
             "Max Strandbar",
-            "Nigls Verhörraum",
+            "Nigls Asservatenkammer",
             "Nils Salzgrotte",
             "Peanuts Boxengasse",
         ]
