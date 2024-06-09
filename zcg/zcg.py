@@ -121,10 +121,10 @@ class ZCG(commands.Cog):
 
     @commands.guild_only()
     @commands.hybrid_group(aliases=["vc"])
-    async def vc(self, ctx: commands.Context):
+    async def voice(self, ctx: commands.Context):
         """Manage the ZCG channels"""
 
-    @vc.command()
+    @voice.command()
     @commands.has_permissions(manage_channels=True)
     async def rename(
         self, ctx: commands.Context, channel: discord.VoiceChannel
