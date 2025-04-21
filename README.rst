@@ -1,7 +1,6 @@
-==============================================
-Redbot cogs for Red-DiscordBot authored by ngL
-==============================================
-
+==================================================
+Redbot cogs for Red-DiscordBot authored by naughty
+==================================================
 This is my cog repo for the redbot, a multifunctional Discord bot!
 
 ------------
@@ -18,13 +17,13 @@ Next, let's add my repository to your system.
 
 .. code-block:: ini
 
-    [p]repo add ngL https://github.com/1993zig/ngL-Cogs
+    [p]repo add naughty https://github.com/1993zig/naughty-Cogs
 
 To install a cog, use this command, replacing <cog> with the name of the cog you wish to install:
 
 .. code-block:: ini
 
-    [p]cog install ngL <cog>
+    [p]cog install naughty <cog>
 
 -------------------
 Available cogs list
