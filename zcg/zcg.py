@@ -50,7 +50,7 @@ class ZCG(commands.Cog):
             "Nils Salzgrotte",
             "Peanuts Boxengasse",
         ]
-        self.category_ids = [927963463144325200, 982625359356915752]
+        self.category_ids = [1363790215185174548, 1363790248928083969]
 
     async def red_delete_data_for_user(self, *args, **kwargs) -> None:
         """Nothing to delete."""
