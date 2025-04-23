@@ -1,7 +1,7 @@
 {
-    "author" : ["ngL"],
+    "author" : ["Nykas"],
     "install_msg" : "Thank you for installing my repo! If you need support, ping me in the Cog Support server or create an issue on GitHub.",
-    "name" : "ngL-cogs",
+    "name" : "naughty-cogs",
     "short" : "Many cogs for Red-DiscordBot!",
     "description" : "Many cogs for Red-DiscordBot!",
     "tags" : ["utility", "functionalities"]

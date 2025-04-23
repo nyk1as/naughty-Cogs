@@ -1,5 +1,5 @@
 {
-    "author": ["ngL"],
+    "author": ["Nyklas"],
     "name": "EmoteManager",
     "install_msg": "Thank you for installing this cog!\nDo `[p]help CogName` to get the list of commands and their description.",
     "short": "A cog to manage emotes.",
