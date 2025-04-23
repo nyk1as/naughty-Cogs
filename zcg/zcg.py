@@ -6,7 +6,7 @@ import typing
 from redbot.core import commands
 from redbot.core.bot import Red
 
-log = logging.getLogger("ngL.zcg")
+log = logging.getLogger("naughty.zcg")
 
 
 def get_bitrate(guild: discord.Guild):

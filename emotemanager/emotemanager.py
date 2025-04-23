@@ -7,7 +7,7 @@ import typing
 from redbot.core import commands
 from redbot.core.bot import Red
 
-log = logging.getLogger("ngL.emotemanager")
+log = logging.getLogger("naughty.emotemanager")
 
 
 class EmoteManager(commands.Cog):

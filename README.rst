@@ -49,4 +49,4 @@ LICENSE
 
 This repository and its cogs are protected under the MIT License.
 
-Copyright (c) 2022-present ngL
+Copyright (c) 2022-present Nyklas
