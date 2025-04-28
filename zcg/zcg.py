@@ -46,7 +46,7 @@ class ZCG(commands.Cog):
             "Lukas Bolzplatz",
             "Manus Stilleecke",
             "Max Strandbar",
-            "Nigls Asservatenkammer",
+            "Nigls Streifenwagen",
             "Nils Salzgrotte",
             "Peanuts Boxengasse",
         ]
