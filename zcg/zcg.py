@@ -44,7 +44,7 @@ class ZCG(commands.Cog):
             "Julians Kiosk",
             "Johnnys Richterzimmer",
             "Lukas Bolzplatz",
-            "Manus Stilleecke",
+            "Manus Dragstrip",
             "Max Strandbar",
             "Nigls Streifenwagen",
             "Nils Salzgrotte",
